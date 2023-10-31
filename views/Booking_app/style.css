@@ -1,0 +1,38 @@
+* {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    text-align: center;
+    font-family: bodoni'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0c0c0c;
+}
+form{
+    padding-left: 3rem;
+}
+
+h5 {
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+#list{
+    padding: 10px;
+}
+
+@media(max-width:768px) {
+    .bg-img {
+        min-height: 30 vh;
+    }
+}
